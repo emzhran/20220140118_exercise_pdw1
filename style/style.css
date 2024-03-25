@@ -1,0 +1,69 @@
+/* command dibawah berfungsi untuk mengatur semua elemen yang ada pada halaman html yang terkait */
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* command dibawah berfungsi untuk mengatur gaya yang ada pada elemen body */
+body {
+    background: url(https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--cfbef461-27b5-4c8e-bfaf-132155f66d3a/_31102_ESB_TorreEuropa_01_ND.app.png?preferwebp=true&width=1440);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+/* command dibawah berfungsi untuk mengatur gaya yang ada pada class login-container */
+.login-container {
+    width: 300px;
+    margin: 150px 30px;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 5px;
+}
+
+/* command dibawah berfungsi untuk mengatur gaya dan posisi yang ada pada elemen img */
+img{
+    width: 450px;
+    position: absolute;
+    top: 100px;
+    right: 370px;
+}
+
+/* command dibawah berfungsi untuk mengatur posisi yang ada pada elemen h2 */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* command dibawah berfungsi untuk mengatur posisi yang ada pada class input-group */
+.input-group {
+    margin-bottom: 20px;
+}
+
+/* command dibawah berfungsi untuk mengatur posisi yang ada pada class input-group yang ada pada elemen label */
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* command dibawah berfungsi untuk mengatur gaya, tampilan border dan posisi yang ada pada class input-group pada elemen input */
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* command dibawah berfungsi untuk mengatur gaya, tampilan border dan posisi yang ada pada elemen button */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan background saat cursor diarahkan ke button/tombol */
+button:hover {
+    background-color: #0056b3;
+}

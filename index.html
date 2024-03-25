@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- command dibawah berfungsi untuk menghubungkan ke file style.css yang terletak pada folder style -->
+    <link rel="stylesheet" href="./style/style.css">
+    <!-- command dibawah berfungsi untuk untuk menggunakan sweetalert2 dalam javascript, nantinya fungsi tersebut akan menampilkan sebuah pesan ketika login -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <!-- command dibawah berfungsi untuk memberikan judul pada halaman website -->
+    <title>Login Form</title>
+</head>
+<body>
+    <!-- command dibawah berfungsi untuk menampilkan gambar dengan cara memanggil dari folder assets -->
+    <img src="./assets/hala-madrid.png" alt="hala">
+    <div class="login-container">
+        <!-- command dibawah berfungsi untuk membuat heading02 pada halaman website -->
+        <h2>Madridista Login</h2>
+        <form>
+            <div class="input-group">
+                <!-- command dibawah berfungsi untuk memberi label untuk input -->
+                <label for="email">Email:</label>
+                <!-- command dibawah berfungsi untuk membuat field input -->
+                <input type="text" id="Email" name="email">
+            </div>
+            <div class="input-group">
+                <!-- command dibawah berfungsi untuk memberi label untuk input -->
+                <label for="password">Password:</label>
+                <!-- command dibawah berfungsi untuk memberi label input -->
+                <input type="password" id="password" name="password">
+            </div>
+            <!-- command dibawah berfungsi untuk membuat button/tombol dan juga terdapat fungsi javascript onclick yang berarti ketika button/tombol ditekan maka akan memanggil fungsi tersebut -->
+            <button type="button" onclick="Submit()">Login</button>
+        </form>
+    </div>
+    <!-- command dibawah berfungsi untuk menghubungkan ke file main.js yang terdapat pada folder script -->
+    <script src="./script/main.js"></script>
+</body>
+</html>

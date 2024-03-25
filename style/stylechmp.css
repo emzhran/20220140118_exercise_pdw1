@@ -1,0 +1,85 @@
+/* command dibawah berfungsi untuk mengatur semua elemen yang ada pada halaman html yang terkait */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan dan gaya pada elemen body */
+body {
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgb(6, 7, 83), rgb(57, 7, 107));
+}
+
+/* command dibawah berfungsi untuk mengatur posisi dan tampilan pada class navbar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+/* command dibawah berfunngsi untuk mengatur gaya dari class nav-links */
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+/* command dibawah berfungsi untuk mengatur posisi elemen li yang terdapat pada class nav-links */
+.nav-links li {
+    margin-right: 20px;
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan dan gaya pada elemen li a yang terdapat pada class nav-links */
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan ketika cursor diarahkan, pada elemen li a yang terdapat pada class nav-links */
+.nav-links li a:hover {
+    color: #ffd700;
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan dan posisi dari class container */
+.container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    margin-top: 180px;
+}
+
+/* command dibawah berfungsi untuk mengatur tampilan dan posisi dari elemen table */
+table {
+    margin: 10px;
+    width: 250px; 
+    background-color: #fff; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* command dibawah berfungsi untuk mengatur posisi dari elemen table th dan td */
+table th,
+table td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* command dibawah berfungsi untuk mengatur ukuran font dari elemen table th */
+table th{
+    font-size: 12px;
+}
+
+/* command dibawah berfungsi untuk mengatur tmapilan dan posisi footer */
+.footer {
+    background-color: rgba(91, 0, 249, 0.303);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
